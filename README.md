@@ -26,13 +26,15 @@ The following are requirements in order to use the integration:
 
 Installation
 -----------
-1. Execute the SQL file Triggers.SQL on the target database.
-2. Copy the mantis folder into your web directory, overwriting the existing mantis folder.
+1. Add the following to your config_inc.php file.
+   ```$g_phpbb_integration = ON;```
+2. Execute the SQL file Triggers.SQL on the target database.
+3. Copy the mantis folder into your web directory, overwriting the existing mantis folder.
    [If you have made any additional code changes to these files, you must merge your custom code changes.]
 
 Validation
 -----------
-To validate the integration is sucessfully installed, change your password on your phpbb account, and attempt to login to mantis using the same credentials. 
+To validate the integration is successfully installed, change your password on your phpbb account, and attempt to login to mantis using the same credentials. 
 If login has failed:
   * Verify the passwords match in both the mantis and phpbb user tables.
   * Verify the triggers are active (update email on phpbb and verify that changes in mantis)
