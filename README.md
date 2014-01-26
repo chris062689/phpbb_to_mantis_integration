@@ -28,7 +28,7 @@ Installation
 -----------
 1. Add the following to your config_inc.php file.
    ```$g_phpbb_integration = ON;```
-2. Execute the SQL file Triggers.SQL on the target database.
+2. Execute the SQL file Triggers.sql on the target database.
 3. Copy the mantis folder into your web directory, overwriting the existing mantis folder.
    [If you have made any additional code changes to these files, you must merge your custom code changes.]
 
