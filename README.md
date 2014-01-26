@@ -26,8 +26,8 @@ The following are requirements in order to use the integration:
 
 Installation
 -----------
-1) Execute the SQL file Triggers.SQL on the target database.
-2) Copy the mantis folder into your web directory, overwriting the existing mantis folder.
+1. Execute the SQL file Triggers.SQL on the target database.
+2. Copy the mantis folder into your web directory, overwriting the existing mantis folder.
    [If you have made any additional code changes to these files, you must merge your custom code changes.]
 
 Validation
